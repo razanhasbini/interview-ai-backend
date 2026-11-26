@@ -13,7 +13,7 @@
 **Change:**
 ```yaml
 - LLM_API_KEY=sk-proj-...  # ❌ EXPOSED!
-- DATABASE_URL=postgresql://...:Hamoudi123%3F@...  # ❌ EXPOSED!
+- DATABASE_URL=postgresql://...:[YOUR_SUPABASE_DB_PASSWORD]@...  # ❌ EXPOSED!
 ```
 
 **To:**
